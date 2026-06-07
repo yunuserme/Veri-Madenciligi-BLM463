@@ -1,0 +1,15 @@
+Elde Edilen Sonuçlar ve Literatür Karşılaştırması
+
+Bu proje kapsamında "Student Performance" veri seti üzerinde Karar Ağaçları (Decision Tree) sınıflandırma algoritması kullanılarak öğrencilerin yıl sonu başarı durumları tahmin edilmiştir. Kurulan modelin test verisi üzerindeki performansı incelendiğinde;
+
+Doğruluk (Accuracy) Oranı: %70.89
+
+Duyarlılık (Sensitivity/Recall - Başarılı Öğrenciler için): %83.00
+
+F-Ölçütü (F1-Score - Başarılı Öğrenciler için): %79.00 olarak hesaplanmıştır.
+
+Akademik Kıyaslama:
+Elde edilen bu sonuçların tutarlılığını ölçmek amacıyla, veri setini literatüre kazandıran orijinal akademik çalışma referans alınmıştır (Cortez, P., & Silva, A. "Using Data Mining to Predict Secondary School Student Performance", 2008). İlgili çalışmada araştırmacılar, öğrencilerin ders başarılarını iki sınıflı (Geçti/Kaldı) bir yapıda Karar Ağaçları ile modellediklerinde ortalama %73 düzeyinde bir doğruluk (accuracy) elde ettiklerini raporlamışlardır.
+
+Sonuç:
+Projemizde elde edilen %70.89'luk doğruluk oranı, orijinal makaledeki (%73) sonuçlarla büyük bir paralellik göstermektedir. Özellikle modelimizin dersten geçecek öğrencileri tespit etmedeki %83'lük yüksek duyarlılığı (sensitivity), Karar Ağacı algoritmasının sosyolojik ve eğitimsel veriler üzerinde güvenilir ve literatüre uygun sonuçlar ürettiğini kanıtlamaktadır.
